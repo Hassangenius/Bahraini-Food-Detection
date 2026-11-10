@@ -1,7 +1,6 @@
 roboflow
 ultralytics
 matplotlib
-streamlit
 Pillow
-numpy<2.3
+numpy
 opencv-python-headless
