@@ -18,7 +18,7 @@ st.title("🇧🇭 Bahrain Cuisine Detector")
 
 @st.cache_resource
 def load_model():
-    return YOLO(r"C:\Users\user\Downloads\runs\detect\train-23\weights\lasst.pt")
+    return YOLO(r"C:\Users\user\Downloads\runs\detect\train-23\weights\last.pt")
 
 try:
     model = load_model()
